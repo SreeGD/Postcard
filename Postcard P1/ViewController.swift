@@ -27,7 +27,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // Before commit
     @IBAction func sendMailButtonPressed(sender: AnyObject) {
+        // Adding a comment to test commits
         messageLabel.hidden = false;
         messageLabel.text = enterNameTextField.text;
         messageLabel.textColor = UIColor.redColor()
